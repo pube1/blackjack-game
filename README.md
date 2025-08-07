@@ -40,15 +40,16 @@ A classic Blackjack card game built with HTML, CSS, and JavaScript. Experience t
 - **Bootstrap 5**: Responsive design framework  
 - **Custom Card Graphics**: Professional casino-style card images  
 
-## 📁 Project Structure
+## �� Project Structure
+
 blackjack-game/  
 ├── [index.html](./index.html) # Main game interface  
 ├── [script.js](./script.js) # Game logic and functionality  
 ├── [style.css](./style.css) # Styling and animations  
 └── [img/](./img) # Card images and game assets  
-  ├── [board.png](./img/board.png) # Casino table background  
-  ├── [cardback.png](./img/cardback.png) # Card back design  
-  └── [card images](./img) # All 52 playing cards  
+    ├── [board.png](./img/board.png) # Casino table background  
+    ├── [cardback.png](./img/cardback.png) # Card back design  
+    └── [card images](./img) # All 52 playing cards
 
 ## 🖌️ Design Features
 
@@ -63,3 +64,54 @@ blackjack-game/
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/pube1/blackjack-game.git
+   ```
+
+2. **Navigate to the project directory**:
+   ```bash
+   cd blackjack-game
+   ```
+
+3. **Open the game**:
+   - Simply open `index.html` in your web browser
+   - Or use a local server for the best experience
+
+## 🎲 Game Controls
+
+- **Hit Button**: Draw another card
+- **Stand Button**: End your turn and let the dealer play
+- **Auto-restart**: Game automatically restarts after each round
+
+## 🔧 Development
+
+This project uses vanilla JavaScript with no external dependencies except Bootstrap for styling. The game logic is modular and well-commented for easy understanding and modification.
+
+## 📝 Recent Updates
+
+- ✅ Improved variable naming conventions
+- ✅ Translated comments to English
+- ✅ Enhanced code organization
+- ✅ Better game state management
+
+## 🤝 Contributing
+
+Feel free to contribute to this project by:
+- Reporting bugs
+- Suggesting new features
+- Improving the UI/UX
+- Optimizing the game logic
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🎯 Future Enhancements
+
+- [ ] Sound effects
+- [ ] Betting system
+- [ ] Multiple decks
+- [ ] Statistics tracking
+- [ ] Mobile app version
+
+---
+
+**Note**: This is a simulation game and has no connection with real money gambling.
