@@ -1,0 +1,157 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+.cards {
+  top: 528px;
+  right: 910px;
+  width: 100px;
+  transform: rotate(-5deg);
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.3));
+
+
+}
+
+.cards2 {
+  top: 480px;
+  right: 870px;
+  width: 100px;
+  transform: rotate(5deg);
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.3));
+}
+
+.cards3 {
+  top: 520px;
+  right: 830px;
+  width: 100px;
+  transform: rotate(-5deg);
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.3));
+}
+
+.cards4 {
+  top: 460px;
+  right: 790px;
+  width: 100px;
+  transform: rotate(5deg);
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.3));
+}
+
+.cardscroupier {
+  top: 50px;
+  right: 910px;
+  width: 100px;
+  transform: rotate(-5deg);
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.3));
+}
+
+.cardscroupier2 {
+  top: 100px;
+  right: 950px;
+  width: 100px;
+  transform: rotate(5deg);
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.3));
+}
+
+.gametable {
+  border: 10px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+.button-hit {
+  top: 650px;
+  right: 715px;
+  width: 150px;
+}
+
+.button-stand {
+  top: 650px;
+  right: 1050px;
+  width: 150px;
+
+}
+
+
+.totalText {
+  top: 680px;
+  right: 1420px;
+  width: 150px;
+  font-size: large;
+  font-weight: bold;
+  color: wheat;
+}
+
+.totalTextCroupier {
+  top: 40px;
+  right: 1400px;
+  width: 150px;
+  font-size: large;
+  font-weight: bold;
+  color: wheat;
+}
+
+
+
+.casino-btn-hit {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+  /* sadece düz gölge kalır */
+  box-shadow: 0 4px 0 #065f46,
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.casino-btn-hit:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
+  /* sadece düz gölge kalır */
+  box-shadow: 0 4px 0 #065f46,
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+
+}
+
+.casino-btn-hit:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 0 #065f46,
+    0 4px 10px rgba(16, 185, 129, 0.3);
+}
+
+
+
+.casino-btn-stand {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  color: white;
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+  box-shadow: 0 4px 0 #b91c1c,
+    /* alt basık gölge */
+    0 4px 15px rgba(239, 68, 68, 0.4),
+    /* genel glow */
+    inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.casino-btn-stand:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #f87171 0%, #ef4444 100%);
+  box-shadow: 0 6px 0 #b91c1c,
+    0 8px 25px rgba(239, 68, 68, 0.6);
+}
+
+.casino-btn-stand:active {
+  transform: scale(0.98);
+  box-shadow: 0 2px 0 #991b1b,
+    0 4px 10px rgba(239, 68, 68, 0.3);
+}
